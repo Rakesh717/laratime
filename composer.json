@@ -24,5 +24,12 @@
     }
   },
   "minimum-stability": "dev",
-  "prefer-stable": false
+  "prefer-stable": false,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "rakeshthapac\\LaraTime\\LaraTimeServiceProvider"
+      ]
+    }
+  }
 }
