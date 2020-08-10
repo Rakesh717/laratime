@@ -9,7 +9,7 @@ use rakeshthapac\LaraTime\Events\LaraTimeUpdatedEvent;
 
 trait LaraTimeable
 {
-    public static function bootLaraTime()
+    public static function bootLaraTimeable()
     {
         static::created(function (Model $model) {
             broadcast(new LaraTimeAddedEvent($model));
