@@ -13,13 +13,6 @@ class LaraTimeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->publishes([
-            __DIR__ . '/Events' => base_path('app/laratime/Events')
-        ], 'events');
-
-        $this->publishes([
-            __DIR__ . '/Traits' => base_path('app/laratime/Traits')
-        ], 'traits');
     }
 
     /**
