@@ -47,7 +47,7 @@ window.laratime
   .on("deleted", (user) => deletesUser(user));
 ```
 
-- Using laratime-js you can listen to updates of a table using **db(tableName)** and by chaining **on(eventName)** you can listen to different evetnts:
+- Using laratime-js you can listen to updates of a table using **db(tableName)** and by chaining **on(eventName)** you can listen to three different events:
   - added
   - updated
   - deleted
