@@ -11,7 +11,7 @@ Provides a cool way to make your system realtime by sending real-time database u
 $ composer require rakeshthapac/laratime
 ```
 
-- Now install small npm package [laratime-js](https://github.com/Rakesh717/laratime-js)
+- Now install small npm package [laratime-js](https://www.npmjs.com/package/laratime-js)
 
 ```sh
 $ npm install laratime-js
@@ -26,7 +26,7 @@ use rakeshthapac\LaraTime\Traits\LaraTimeable;
 // now all your database updates will be broadcasted through websockets
 ```
 
-## Usage (Frontend [laratime-js](https://github.com/Rakesh717/laratime-js))
+## Usage (Frontend [laratime-js](https://www.npmjs.com/package/laratime-js))
 
 - import laratime from laratime-js and pass it the Echo instance
 
