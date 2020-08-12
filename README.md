@@ -22,7 +22,7 @@ $ npm install laratime-js
 - Just plug one trait into your model and you are ready to go
 
 ```php
-use rakeshthapac\LaraTime\Traits\LaraTimeable;
+use \rakeshthapac\LaraTime\Traits\LaraTimeable;
 // now all your database updates will be broadcasted through websockets
 ```
 
